@@ -1,0 +1,37 @@
+- 1. feladat ( 8 pont) ----------------------
+Kérjen be a felhasználótól két egész számot a terminálról!
+Kerekítse két tizedesjegy pontosságura a két szám hányadosát, és jelenítse meg az eredményt a terminálon!
+Határozza meg, és írja ki a terminálra, hogy az így kapott eredmény osztható-e maradék nélkül 5el, vagy sem!
+
+- 2. feladat (14 pont) ----------------------
+
+A források közt adott a dgnms.py állomány, egy kutyaneveket tartalmazó lista van benne. Tegye hozzáférhetővé a kódjában a lista tartalmát (a modul importálásával vagy kódrészlet megfelelő helyre másolásával), majd végezze el a következő feladatokat:
+- A random modul segítségével válasszon ki egy véletlenszerű nevet a listából.
+- Határozza meg a kiválasztott névben a magánhangzók számát*, és írja ki a névvel együtt a terminálra.
+- A program kérdezze meg a felhasználótól, hogy tetszik-e neki a sorsolt név, várjon a kérdésre inputot.
+- Amennyiben a válasz nem az, hogy "igen", sorsoljon egy újabb nevet. Ismételje ezt a folyamatot, amíg a név nem felel meg a felhasználónak. 
+- Ezután a program gratuláljon a választáshoz, és köszönjön el!
+
+- 3. feladat (18 pont) ----------------------
+
+Adott az UTF-8-as kódolású paralimpia.txt file, amely a Paralimpia nevű sportverseny-sorozat nyári játékainak eddigi rendezési adatait, valamint a versenyen magyar sportolók által szerzett dobogós érmek számát tartalmazza.
+
+Az file sorai azonos szerkezetűek, az adatok pontosvesszővel tagoltak. A file egy sora például:
+2004;Görögország;Athén;1;8;10
+ahol adattagok jelentése rendre a következők:
+- az évszám, amikor a versenyt rendezték
+- a rendező ország neve
+- a sporteseménynek helyet adó város
+- a következő három számadat magyar sportolók által szerzett érmek száma arany, ezüst, bronz sorrendben
+
+Olvassa be az állomány tartalmát, és tárolja le egy objektumpéldányokat tartalmazó listába! Ennek a listának a felhasználásával
+oldja meg az alábbi feladatokat! A terminálra történő kiírást igénylő feladatok eredményét a mintán látható módon jelenítse meg!
+
+- Jelenítse meg, hogy hány versenyt rendeztek eddig a versenysorozatban!
+- Az adatok a forrásfileban rendezési év szerint növekvő sorrendben vannak. Határozza meg és írja ki, hogy mely ország rendezte a legutóbbi versenyt!
+- Határozza meg, és írja ki, hogy a versenysorozatban a magyar sportolók eddig összesen hány aranyérmet szereztek!
+- Határozza meg, és írja ki, hogy hány olyan verseny volt, amikor a magyar sportolók egyáltalán nem szereztek dobogós helyet!
+- Határozza meg, és írja ki, hogy melyik város adott otthont annak az eseménynek, ahol a magyar sportolók a legtöbb érmet szerezték?**
+
+[ *]  Figyelembe veheti, hogy a lista elemeiben nincsenek ékezetes betűk.
+[**] Feltételezheti, hogy nincs két olyan év, ahol azonos lenne a szerzett érmek száma.
